@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from  '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { NavComponent } from './components/template/nav/nav.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    NavComponent,
     
   ],
   imports: [
