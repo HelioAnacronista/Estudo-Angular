@@ -15,6 +15,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from "@angular/material/card";
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
+    ProductCreateComponent,
     
   ],
   imports: [
