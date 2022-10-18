@@ -2,6 +2,7 @@ import { Product } from './../product.model';
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { randomInt } from 'crypto';
 
 @Component({
   selector: 'app-product-create',
@@ -10,7 +11,8 @@ import { Router } from '@angular/router';
 })
 export class ProductCreateComponent implements OnInit {
 
-  product : Product = {
+  product : Product = { 
+    id: 0,
     name: '',
     price: 0
   }
